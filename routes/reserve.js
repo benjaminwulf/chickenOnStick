@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get("/reserve", function(req, res){
-    res.render('reserve', {reserve})
+    res.render('reserve', {title: 'Express'})
 })
 
 module.exports = router;
